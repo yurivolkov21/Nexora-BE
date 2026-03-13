@@ -1,0 +1,3 @@
+#!/bin/sh
+# Auto-sync Nexora-Docs submodule after every git pull/merge
+git submodule update --remote --merge
