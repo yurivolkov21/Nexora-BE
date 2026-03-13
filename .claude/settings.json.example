@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "FILL_IN: ghp_xxxxxxxxxxxxxxxxxxxx"
+      }
+    },
+    "railway": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-railway"],
+      "env": {
+        "RAILWAY_API_TOKEN": "FILL_IN: your Railway API token from railway.app/account/tokens"
+      }
+    }
+  }
+}
